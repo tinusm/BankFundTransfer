@@ -1,0 +1,6 @@
+com\bank\fund\Transaction.class
+com\bank\fund\TransactionRepository.class
+com\bank\fund\FundTransferController.class
+com\bank\fund\Application.class
+com\bank\fund\FundRepository.class
+com\bank\fund\Fund.class
