@@ -14,6 +14,7 @@ public class Transaction {
 	@Column(name="accountid")
     Long accountid;
 	Long accountnumber;
+	Long thirdpartyaccountnumber;
 	Long previousbalance;
 	Long currentbalance;
 	String customername;
@@ -37,6 +38,12 @@ public class Transaction {
 	}
 	public void setPreviousbalance(Long previousbalance) {
 		this.previousbalance = previousbalance;
+	}
+	public Long getThirdpartyaccountnumber() {
+		return thirdpartyaccountnumber;
+	}
+	public void setThirdpartyaccountnumber(Long thirdpartyaccountnumber) {
+		this.thirdpartyaccountnumber = thirdpartyaccountnumber;
 	}
 	public Long getCurrentbalance() {
 		return currentbalance;
